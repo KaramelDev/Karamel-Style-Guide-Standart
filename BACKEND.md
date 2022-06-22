@@ -16,5 +16,12 @@
 - **class** name should be UpperCamelCase (the first letter must uppercase)
 
 ### API Error handling
-- Standart Response Status Code
-- Parse error notification to `e.response.data.errors[]`
+- Standart Response Status Code (please don't use 200 only)
+- Response error data
+```
+{
+  "errors": [
+    "Error message here."
+  ]
+}
+```
