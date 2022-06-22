@@ -18,10 +18,10 @@
 ### API Error handling
 - Standart Response Status Code (please don't use 200 only)
 - Response error data
-```
-{
-  "errors": [
-    "Error message here."
-  ]
-}
-```
+  ```
+  {
+    "errors": [
+      "Error message here."
+    ]
+  }
+  ```
