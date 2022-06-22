@@ -16,7 +16,7 @@
 
 ### API Error handling
 - Standart Response Status Code
-- Parse error notification from API to `$axios.onError()`
+- Parse error messages from API to `$axios.onError()`
   ```
   const dataError = e.response.data.errors
   Object.keys(dataError).forEach((item) => {
