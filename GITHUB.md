@@ -3,7 +3,7 @@
 ### FLOW
 ```
   $ git pull origin master
-  $ git branch -b new-branch
+  $ git checkout -b new-branch
   ----- work --------
   $ git add -A
   $ git commit -m 'your message'
@@ -13,6 +13,7 @@
   ----- marge to master --------
   ----- delete branch --------
   $ git checkout master
-  $ git checkout -D new-branch
+  $ git pull origin master
+  $ git branch -d new-branch
   ----- repeat --------
 ```
