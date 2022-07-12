@@ -15,6 +15,12 @@
 - **function** name should be snake_case
 - **class** name should be UpperCamelCase (the first letter must uppercase)
 
+### API URL
+- please use english
+- use lowercase
+- use kebab-case for two words or more
+- end with `/` ex: `/api/master/category/`, `/api/master/category/{id}/`
+
 ### API Error handling
 - Standart Response Status Code (please don't use 200 only)
 - Response error data
