@@ -20,6 +20,7 @@
 - use lowercase
 - use kebab-case for two words or more
 - end with `/` ex: `/api/master/category/`, `/api/master/category/{id}/`
+- if use `/all/` should be non-pagination with simple result
 
 ### API Error handling
 - Standart Response Status Code (please don't use 200 only)
