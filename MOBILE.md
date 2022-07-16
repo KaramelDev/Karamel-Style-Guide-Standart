@@ -17,5 +17,4 @@
 - Standart Response Status Code
 
 ### Keytool generate jks
-- keytool -genkey -alias {your-alias} -keyalg RSA -keypass {your-keypass}
--storepass {your-storepass} -keystore {your-filename}.jks
+- ```keytool -genkey -alias {your-alias} -keyalg RSA -keypass {your-keypass} -storepass {your-storepass} -keystore {your-filename}.jks -validity 20000```
